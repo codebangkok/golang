@@ -31,4 +31,4 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * go-sql-driver/mysql https://pkg.go.dev/github.com/go-sql-driver/mysql
 * gorilla/mux https://pkg.go.dev/github.com/gorilla/mux
 * go<span></span>.uber.org/zap https://pkg.go.dev/go.uber.org/zap
-
+* spf13/viper https://pkg.go.dev/github.com/spf13/viper
