@@ -32,3 +32,7 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * gorilla/mux https://pkg.go.dev/github.com/gorilla/mux
 * go<span></span>.uber.org/zap https://pkg.go.dev/go.uber.org/zap
 * spf13/viper https://pkg.go.dev/github.com/spf13/viper
+* gofiber/fiber https://pkg.go.dev/github.com/gofiber/fiber/v2
+* mock/gomock https://pkg.go.dev/github.com/golang/mock/gomock
+* net/http https://pkg.go.dev/net/http
+* net/http/httptest https://pkg.go.dev/net/http/httptest
