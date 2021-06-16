@@ -6,7 +6,7 @@ type CustomerResponse struct {
 	Status     int    `json:"status"`
 }
 
-//go:generate mockgen -destination=../mock/service/mock_customer_service.go bank/service CustomerService
+//go:generate mockgen -destination=../mock/mock_service/mock_customer_service.go bank/service CustomerService
 type CustomerService interface {
 	GetCustomers() ([]CustomerResponse, error)
 	GetCustomer(int) (*CustomerResponse, error)

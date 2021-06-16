@@ -9,7 +9,7 @@ type Customer struct {
 	Status      int    `db:"status"`
 }
 
-//go:generate mockgen -destination=../mock/repository/mock_customer_repository.go bank/repository CustomerRepository
+//go:generate mockgen -destination=../mock/mock_repository/mock_customer_repository.go bank/repository CustomerRepository
 type CustomerRepository interface {
 	GetAll() ([]Customer, error)
 	GetById(int) (*Customer, error)
