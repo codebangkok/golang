@@ -36,6 +36,8 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * mock/gomock https://pkg.go.dev/github.com/golang/mock/gomock
 * net/http https://pkg.go.dev/net/http
 * net/http/httptest https://pkg.go.dev/net/http/httptest
+* crypto/bcrypt https://pkg.go.dev/golang.org/x/crypto/bcrypt
+* dgrijalva/jwt-go https://pkg.go.dev/github.com/dgrijalva/jwt-go
 
 ### ติดตามผลงานได้ที่
 * **Page:** [https://fb.com/CodeBangkok​](https://fb.com/CodeBangkok​)
