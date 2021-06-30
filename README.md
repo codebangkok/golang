@@ -33,13 +33,16 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * go<span></span>.uber.org/zap https://pkg.go.dev/go.uber.org/zap
 * spf13/viper https://pkg.go.dev/github.com/spf13/viper
 * gofiber/fiber https://pkg.go.dev/github.com/gofiber/fiber/v2
+* gofiber/jwt/v2 https://pkg.go.dev/github.com/gofiber/jwt/v2
 * mock/gomock https://pkg.go.dev/github.com/golang/mock/gomock
 * net/http https://pkg.go.dev/net/http
 * net/http/httptest https://pkg.go.dev/net/http/httptest
 * crypto/bcrypt https://pkg.go.dev/golang.org/x/crypto/bcrypt
 * dgrijalva/jwt-go https://pkg.go.dev/github.com/dgrijalva/jwt-go
+* gorm<span></span>.io/gorm https://pkg.go.dev/gorm.io/gorm
+* gorm<span></span>.io/driver/mysql https://pkg.go.dev/gorm.io/driver/mysql
 
-### ติดตามผลงานได้ที่
+### Follow me
 * **Page:** [https://fb.com/CodeBangkok​](https://fb.com/CodeBangkok​)
 * **Group:** [https://fb.com/groups/msdevth​](https://fb.com/groups/msdevth​)
 * **Blog:** [https://dev.to/codebangkok](https://dev.to/codebangkok)
