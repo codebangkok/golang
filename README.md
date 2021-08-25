@@ -13,11 +13,16 @@
 
 ### Go on macOS
 ```sh
-curl -OL https://golang.org/dl/go1.16.4.darwin-amd64.tar.gz
-tar xfz go1.16.4.darwin-amd64.tar.gz
+curl -OL https://golang.org/dl/go1.17.darwin-amd64.tar.gz
+tar xfz go1.17.darwin-amd64.tar.gz
 sudo mv go /usr/local
 sudo ln /usr/local/go/bin/go /usr/local/bin/go
 ```
+
+### Go on Windows with Windows Package Manager
+* [Windows Terminal](https://www.microsoft.com/store/productId/9N0DX20HK701)
+* [Windows Package Manager Insiders Program](https://forms.microsoft.com/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR-NSOqDz219PqoOqk5qxQEZUMVVCT1IwVEpLSklZS0dDRFZEUjZUOU9ZWi4u)
+* [App Installer (winget)](https://www.microsoft.com/store/productId/9NBLGGH4NNS1)
 
 ### Visual Studio Code and Extension 
 * VSCode https://code.visualstudio.com
