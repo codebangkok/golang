@@ -3,7 +3,7 @@
 ### Website
 * Golang https://golang.org
 * Package https://pkg.go.dev
-* Go standard library https://golang.org/pkg
+* Go standard library https://pkg.go.dev/std
 * Language Specification https://golang.org/ref/spec
 * Awesome Go https://github.com/avelino/awesome-go
 * Uber Style Guide https://github.com/uber-go/guide
