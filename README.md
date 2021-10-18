@@ -10,6 +10,10 @@
 * Go modules cheat sheet https://encore.dev/guide/go.mod
 * VSCode Settings https://github.com/golang/vscode-go/blob/master/docs/settings.md
 * SQL database drivers https://github.com/golang/go/wiki/SQLDrivers
+* Redis https://redis.io
+* K6 https://k6.io
+* Influx https://influxdata.com
+* Grafana https://grafana.com
 
 ### Go on macOS
 ```sh
@@ -28,6 +32,9 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * VSCode https://code.visualstudio.com
 * Go https://marketplace.visualstudio.com/items?itemName=golang.Go
 * Error Lens https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens
+* Docker https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
+* MySQL https://marketplace.visualstudio.com/items?itemName=formulahendry.vscode-mysql
+* K6 snippets https://marketplace.visualstudio.com/items?itemName=mJacobson.snippets-for-k6
 
 ### Go Package
 * database/sql https://pkg.go.dev/database/sql
@@ -46,6 +53,21 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * dgrijalva/jwt-go https://pkg.go.dev/github.com/dgrijalva/jwt-go
 * gorm<span></span>.io/gorm https://pkg.go.dev/gorm.io/gorm
 * gorm<span></span>.io/driver/mysql https://pkg.go.dev/gorm.io/driver/mysql
+* go-redis/redis/v8 https://pkg.go.dev/github.com/go-redis/redis/v8
+
+#### Docker Image
+* Redis https://hub.docker.com/_/redis
+* K6 https://hub.docker.com/r/loadimpact/k6
+* InfluxDB https://hub.docker.com/_/influxdb
+* MariaDB https://hub.docker.com/_/mariadb
+* Grafana https://hub.docker.com/r/grafana/grafana
+
+#### Redis Configuration
+``` 
+bind 0.0.0.0
+appendonly yes
+SAVE ""
+```
 
 ### Follow me
 * **Page:** [https://fb.com/CodeBangkok​](https://fb.com/CodeBangkok​)
