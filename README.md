@@ -57,11 +57,12 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * hystrix https://pkg.go.dev/github.com/afex/hystrix-go/hystrix
 
 #### Docker Image
-* Redis https://hub.docker.com/_/redis
-* K6 https://hub.docker.com/r/loadimpact/k6
-* InfluxDB https://hub.docker.com/_/influxdb
-* MariaDB https://hub.docker.com/_/mariadb
-* Grafana https://hub.docker.com/r/grafana/grafana
+* redis https://hub.docker.com/_/redis
+* loadimpact/k6 https://hub.docker.com/r/loadimpact/k6
+* influxdb https://hub.docker.com/_/influxdb
+* mariadb https://hub.docker.com/_/mariadb
+* grafana/grafana https://hub.docker.com/r/grafana/grafana
+* mlabouardy/hystrix-dashboard https://hub.docker.com/r/mlabouardy/hystrix-dashboard
 
 #### Redis Configuration
 ``` 
