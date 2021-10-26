@@ -54,6 +54,7 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * gorm<span></span>.io/gorm https://pkg.go.dev/gorm.io/gorm
 * gorm<span></span>.io/driver/mysql https://pkg.go.dev/gorm.io/driver/mysql
 * go-redis/redis/v8 https://pkg.go.dev/github.com/go-redis/redis/v8
+* hystrix https://pkg.go.dev/github.com/afex/hystrix-go/hystrix
 
 #### Docker Image
 * Redis https://hub.docker.com/_/redis
