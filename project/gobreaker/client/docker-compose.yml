@@ -1,0 +1,7 @@
+version: '3.9'
+services: 
+  hystrix:
+    image: mlabouardy/hystrix-dashboard
+    container_name: hystrix
+    ports: 
+      - 9002:9002
