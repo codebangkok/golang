@@ -6,5 +6,5 @@ export let options = {
 }
 
 export default function() {
-    http.get('http://host.docker.internal:8000/hello')
+    http.get('http://host.docker.internal:8000/products')
 }
