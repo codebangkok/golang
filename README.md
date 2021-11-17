@@ -14,6 +14,7 @@
 * K6 https://k6.io
 * Influx https://influxdata.com
 * Grafana https://grafana.com
+* Learn Go with Tests https://quii.gitbook.io
 
 ### Go on macOS
 ```sh
@@ -55,7 +56,8 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * gorm<span></span>.io/gorm https://pkg.go.dev/gorm.io/gorm
 * gorm<span></span>.io/driver/mysql https://pkg.go.dev/gorm.io/driver/mysql
 * go-redis/redis/v8 https://pkg.go.dev/github.com/go-redis/redis/v8
-* hystrix https://pkg.go.dev/github.com/afex/hystrix-go/hystrix
+* afex/hystrix-go/hystrix https://pkg.go.dev/github.com/afex/hystrix-go/hystrix
+* stretchr/testify https://pkg.go.dev/github.com/stretchr/testify
 
 
 #### Docker Image
@@ -71,6 +73,19 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 bind 0.0.0.0
 appendonly yes
 SAVE ""
+```
+
+#### VS Code Configuration
+```json
+"go.coverOnSave": true,
+"go.coverOnSingleTest": true,
+"go.coverageDecorator": {
+    "type": "gutter",
+    "coveredHighlightColor": "rgba(64,128,128,0.5)",
+    "uncoveredHighlightColor": "rgba(128,64,64,0.25)",        
+    "coveredGutterStyle": "blockgreen",
+    "uncoveredGutterStyle": "blockred"
+}
 ```
 
 ### Follow me
