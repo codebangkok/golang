@@ -58,6 +58,7 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * go-redis/redis/v8 https://pkg.go.dev/github.com/go-redis/redis/v8
 * afex/hystrix-go/hystrix https://pkg.go.dev/github.com/afex/hystrix-go/hystrix
 * stretchr/testify https://pkg.go.dev/github.com/stretchr/testify
+* godoc https://pkg.go.dev/golang.org/x/tools/cmd/godoc
 
 
 #### Docker Image
