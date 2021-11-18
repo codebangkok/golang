@@ -40,6 +40,7 @@ func TestPromotionCalculateDiscountIntegrationService(t *testing.T) {
 
 		//Act
 		res, _ := app.Test(req)
+		defer res.Body.Close()
 
 		//Assert
 		if assert.Equal(t, fiber.StatusOK, res.StatusCode) {
