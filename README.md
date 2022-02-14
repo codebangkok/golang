@@ -15,6 +15,8 @@
 * Influx https://influxdata.com
 * Grafana https://grafana.com
 * Learn Go with Tests https://quii.gitbook.io
+* Kafka https://kafka.apache.org
+
 
 ### Go on macOS
 ```sh
@@ -59,6 +61,8 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * afex/hystrix-go/hystrix https://pkg.go.dev/github.com/afex/hystrix-go/hystrix
 * stretchr/testify https://pkg.go.dev/github.com/stretchr/testify
 * godoc https://pkg.go.dev/golang.org/x/tools/cmd/godoc
+* Shopify/sarama https://pkg.go.dev/github.com/Shopify/sarama
+* google/uuid https://pkg.go.dev/github.com/google/uuid
 
 
 #### Docker Image
@@ -68,6 +72,8 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * mariadb https://hub.docker.com/_/mariadb
 * grafana/grafana https://hub.docker.com/r/grafana/grafana
 * mlabouardy/hystrix-dashboard https://hub.docker.com/r/mlabouardy/hystrix-dashboard
+* zookeeper https://hub.docker.com/_/zookeeper
+* kafka https://hub.docker.com/r/bitnami/kafka
 
 #### Redis Configuration
 ``` 
