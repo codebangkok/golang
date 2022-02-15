@@ -1,0 +1,12 @@
+kafka:
+  servers:
+    - codebangkok.com:9092
+  group: accountConsumer
+
+db:
+  driver: mysql
+  host: codebangkok.com
+  port: 3306
+  username: bond
+  password: P@ssw0rd
+  database: micro

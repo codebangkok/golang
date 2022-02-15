@@ -1,0 +1,4 @@
+kafka:
+  servers:
+    - codebangkok.com:9092
+ 
