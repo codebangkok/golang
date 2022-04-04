@@ -21,6 +21,7 @@ Go Programming Playlist https://youtube.com/playlist?list=PLyZTXfAT27ib7T9Eg3qhv
 * Protocol Buffers Release https://github.com/protocolbuffers/protobuf/releases
 * Protocol Buffers Doctument https://developers.google.com/protocol-buffers/docs/proto3
 * evans gRPC Client https://github.com/ktr0731/evans
+* Protocol Buffer Library https://github.com/protocolbuffers/protobuf/tree/main/src/google/protobuf
 
 ### Go on macOS
 ```sh
@@ -73,10 +74,9 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * protoc-gen-go-grpc https://pkg.go.dev/google.golang.org/grpc/cmd/protoc-gen-go-grpc
 
 
-
 ### Go Tool
 * protoc-gen-go google.golang.org/protobuf/cmd/protoc-gen-go
-* protoc-gen-go=grpc google.golang.org/grpc/cmd/protoc-gen-go-grpc
+* protoc-gen-go-grpc google.golang.org/grpc/cmd/protoc-gen-go-grpc
 
 #### Docker Image
 * redis https://hub.docker.com/_/redis
@@ -108,6 +108,30 @@ SAVE ""
     "uncoveredGutterStyle": "blockred"
 }
 ```
+
+### Go GRPC for macOS
+1) Install Protobuf on macOS
+```
+brew install protobuf
+```
+2) Install Evans gRPC client for macOS
+```
+brew tap ktr0731/evans
+brew install evans
+```
+3) Install vscode-proto3 for VSCode https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3
+
+4) Go get package in project
+```
+go get google.golang.org/protobuf/cmd/protoc-gen-go
+go get google.golang.org/grpc/cmd/protoc-gen-go-grpc
+```
+5) Install gRPC tool in project
+```
+go install google.golang.org/protobuf/cmd/protoc-gen-go
+go install google.golang.org/grpc/cmd/protoc-gen-go-grpc
+```
+
 
 ### Follow me
 * **Page:** [https://fb.com/CodeBangkok​](https://fb.com/CodeBangkok​)
