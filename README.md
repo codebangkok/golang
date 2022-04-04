@@ -43,6 +43,7 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * Docker https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
 * MySQL https://marketplace.visualstudio.com/items?itemName=formulahendry.vscode-mysql
 * K6 snippets https://marketplace.visualstudio.com/items?itemName=mJacobson.snippets-for-k6
+* vscode-proto3 https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3
 
 ### Go Package
 * database/sql https://pkg.go.dev/database/sql
@@ -68,15 +69,10 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * godoc https://pkg.go.dev/golang.org/x/tools/cmd/godoc
 * Shopify/sarama https://pkg.go.dev/github.com/Shopify/sarama
 * google/uuid https://pkg.go.dev/github.com/google/uuid
+* grpc https://pkg.go.dev/google.golang.org/grpc
 * protobuf https://pkg.go.dev/google.golang.org/protobuf
 * protoc-gen-go https://pkg.go.dev/google.golang.org/protobuf/cmd/protoc-gen-go
-* grpc https://pkg.go.dev/google.golang.org/grpc
 * protoc-gen-go-grpc https://pkg.go.dev/google.golang.org/grpc/cmd/protoc-gen-go-grpc
-
-
-### Go Tool
-* protoc-gen-go google.golang.org/protobuf/cmd/protoc-gen-go
-* protoc-gen-go-grpc google.golang.org/grpc/cmd/protoc-gen-go-grpc
 
 #### Docker Image
 * redis https://hub.docker.com/_/redis
@@ -96,7 +92,7 @@ appendonly yes
 SAVE ""
 ```
 
-#### VS Code Configuration
+#### Unit Test VS Code Configuration
 ```json
 "go.coverOnSave": true,
 "go.coverOnSingleTest": true,
@@ -109,7 +105,7 @@ SAVE ""
 }
 ```
 
-### Go GRPC for macOS
+### Go gRPC for macOS
 1) Install Protobuf on macOS
 ```
 brew install protobuf
