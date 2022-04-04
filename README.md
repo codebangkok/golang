@@ -17,7 +17,10 @@ Go Programming Playlist https://youtube.com/playlist?list=PLyZTXfAT27ib7T9Eg3qhv
 * Grafana https://grafana.com
 * Learn Go with Tests https://quii.gitbook.io
 * Kafka https://kafka.apache.org
-
+* gRPC https://grpc.io
+* Protocol Buffers Release https://github.com/protocolbuffers/protobuf/releases
+* Protocol Buffers Doctument https://developers.google.com/protocol-buffers/docs/proto3
+* evans gRPC Client https://github.com/ktr0731/evans
 
 ### Go on macOS
 ```sh
@@ -64,7 +67,16 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * godoc https://pkg.go.dev/golang.org/x/tools/cmd/godoc
 * Shopify/sarama https://pkg.go.dev/github.com/Shopify/sarama
 * google/uuid https://pkg.go.dev/github.com/google/uuid
+* protobuf https://pkg.go.dev/google.golang.org/protobuf
+* protoc-gen-go https://pkg.go.dev/google.golang.org/protobuf/cmd/protoc-gen-go
+* grpc https://pkg.go.dev/google.golang.org/grpc
+* protoc-gen-go-grpc https://pkg.go.dev/google.golang.org/grpc/cmd/protoc-gen-go-grpc
 
+
+
+### Go Tool
+* protoc-gen-go google.golang.org/protobuf/cmd/protoc-gen-go
+* protoc-gen-go=grpc google.golang.org/grpc/cmd/protoc-gen-go-grpc
 
 #### Docker Image
 * redis https://hub.docker.com/_/redis
@@ -75,6 +87,7 @@ sudo ln /usr/local/go/bin/go /usr/local/bin/go
 * mlabouardy/hystrix-dashboard https://hub.docker.com/r/mlabouardy/hystrix-dashboard
 * zookeeper https://hub.docker.com/_/zookeeper
 * kafka https://hub.docker.com/r/bitnami/kafka
+* vscode-proto3 https://marketplace.visualstudio.com/items?itemName=zxh404.vscode-proto3
 
 #### Redis Configuration
 ``` 
