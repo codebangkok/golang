@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package services;
+option go_package="./services";
+
+enum Gender {
+    UNKNOWN = 0;
+    MALE = 1;
+    FEMALE = 2;
+}
