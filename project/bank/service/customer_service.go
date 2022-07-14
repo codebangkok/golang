@@ -41,7 +41,7 @@ func (s customerService) GetCustomer(id int) (*CustomerResponse, error) {
 	if err != nil {
 
 		if err == sql.ErrNoRows {
-			return nil, errs.NewValidationError("customer not found")
+			return nil, errs.NewNotFoundError("customer not found")
 		}
 
 		logs.Error(err)
