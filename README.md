@@ -2,10 +2,10 @@
 Go Programming Playlist https://youtube.com/playlist?list=PLyZTXfAT27ib7T9Eg3qhvDE5rgvjQk4OL
 
 ### Website
-* Golang https://golang.org
+* Golang https://go.dev
 * Package https://pkg.go.dev
 * Go standard library https://pkg.go.dev/std
-* Language Specification https://golang.org/ref/spec
+* Language Specification https://go.dev/ref/spec
 * Awesome Go https://github.com/avelino/awesome-go
 * Uber Style Guide https://github.com/uber-go/guide
 * Go modules cheat sheet https://encore.dev/guide/go.mod
